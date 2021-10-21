@@ -1,0 +1,135 @@
+body{
+    text-align: center;
+    font-size: x-large;
+    position: static;
+    font-family:'Courier New', Courier, monospace;
+    background-image: linear-gradient(-45deg, #ec69c2 50%, #edd9f0f8 50%);;
+    margin: 10px;
+}
+.menu1{
+    list-style: none;
+    padding:0;
+    background:transparent;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: x-large;
+    position: static;
+    
+}
+.menu1 li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 20px;
+    display: block;
+}
+.menu1 li {
+    display: inline-block;
+    text-align: left;
+}
+.menu1 li a :hover{
+    background:#e737af;
+    padding: 10px;
+}
+
+.btn{
+
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ee07bc;
+    background-color:#0c0106;
+    border-radius: 6px;
+    color: #f3efef;
+    cursor: pointer;
+    margin: 100px auto;
+    transition: all.25;
+    z-index: relative;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.btn:before{
+
+    content: '';
+    position: static;
+    width: 100%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to ringt,);
+    transition: all.25s;
+    z-index: -1;
+}
+.btn:hover{
+    border: 1px solid transparent;
+    color:  #eeeeee;
+}
+
+
+.menu2{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu2 li{
+  display: inline-block;
+  text-align: center;
+  color: #ee07bc;
+}
+
+.menu2 li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(3, 3, 3);
+  padding: 10px;
+  width: 3px;
+  height: 3px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+.menu3{
+    list-style: none;
+    padding:0;
+    background:transparent;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: x-large;
+    position: static;
+    
+}
+.menu3 li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 20px;
+    display: block;
+}
+.menu3 li {
+    display: inline-block;
+    text-align: center;
+}
+.menu3 li a :hover{
+    background:#d6d1d4;
+    padding: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 30;
+    color: black;
+    font-size: 50px;
+    transition: .3 ease all;
+    text-align: left;
+}
+.btn:hover{
+background: burlywood;
+color: #000;
+box-shadow: 3px 3px 50px chocolate;
+}

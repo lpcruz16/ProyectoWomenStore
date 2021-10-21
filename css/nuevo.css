@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  width: 100%;
+  counter-reset: list;
+  background: #eee;
+}
+
+dl {
+  height: 40vh;
+  max-width: 70vh;
+  width: 100%;
+  align-self: center;
+  box-sizing: border-box;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, right top, color-stop(80%, #fff), to(transparent));
+  background: linear-gradient(to right, #fff 80%, transparent);
+  box-shadow: -5px 5px 5px 0px rgba(153, 153, 153, 0.05);
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+dl:nth-child(even) {
+  margin-left: 20px;
+}
+dl:nth-child(odd) {
+  margin-right: 20px;
+}
+dl:hover {
+  box-shadow: 0px 5px 0px 0px rgba(153, 153, 153, 0);
+}
+dl:hover:before {
+  margin-left: 10px;
+}
+dl:before {
+  counter-increment: list;
+  content: counter(list);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 60vh;
+  color: #eee;
+  font-weight: bold;
+  margin-left: -35px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translatey(-52%);
+          transform: translatey(-52%);
+  -webkit-transition: margin 0.2s ease-out;
+  transition: margin 0.2s ease-out;
+}
+
+dt {
+  color: burlywood;
+  font-size: 3.5vh;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotatez(-90deg);
+          transform: translate(-50%, -50%) rotatez(-90deg);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+dd {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 100%;
+  max-width: 45%;
+  margin-left: 55%;
+  padding: 5px;
+  color: #999;
+  font-size: 2.3vh;
+}

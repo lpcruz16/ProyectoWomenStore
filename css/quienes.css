@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-size: x-large;
+    position: static;
+    font-family:'Courier New', Courier, monospace;
+    background-image: linear-gradient(-45deg, #ec69c2 50%, #edd9f0f8 50%);;
+    margin: 10px;
+}
+.menu1{
+    list-style: center;
+    padding:0;
+    background:transparent;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu1 li a{
+    text-decoration: none;
+    color:#0f0f0f;
+    padding: 20px;
+    display: block;
+}
+.menu1 li{
+    display: inline-block;
+    text-align: center;
+}
+.menu1 li a:hover{
+    background: #e737af;
+}
