@@ -102,7 +102,7 @@ table tr td b img{
   margin: auto;
   background-color: #e9b1b8;
   width: 1100px;
-  padding: 50px;
+  padding: 20px;
 }
 
 ul, li {
@@ -113,8 +113,8 @@ ul, li {
 
 ul.slider{
   position: relative;
-  width: 800px;
-  height: 300px;
+  width: 700px;
+  height: 400px;
 }
 
 ul.slider li {
@@ -130,7 +130,7 @@ ul.slider li {
 
 ul.slider li img{
   width: 1100px;
-  height: 400px;
+  height: 350px;
   object-fit: fill;
 }
 

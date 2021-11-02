@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Registro</title>
-    	<link rel="stylesheet" type="text/css" href="../css/index.css">
+    	<link rel="stylesheet" type="text/css" href="../ProyectoWomenStore/estilos/registro.css">
         <link rel="icon" href="../proyecto/ico.ico">
 </head>
 
@@ -14,44 +14,35 @@
     <form action="insertarUsuarios.php" method="POST" >
 
         <H1>FORMULARIO REGISTRO</H1>
+        <label for="id_cliente"> id cliente <br></label>
+        <input type="text" name="id_cliente" placeholder="Un Numero" required><br>
         <!--                                    -->
-        <label for="Doc">N° Documento:</label><br>
-        <input type="text" name="Doc"  placeholder="Ingrese su Numero de Documento" 
-        minlength="5" maxlength="15"><br>
+        <label for="Doc"> N° Documento:<br></label>
+        <input type="text" name="Doc"  placeholder="Ingrese su Numero de Documento"  required ><br>
         <!--                                          nombre -->
-        <label for="Nombre"></label><br>
-        <input type="text" name="Nombre" placeholder="Ingrese su Nombre" 
-        minlength="5" maxlength="15" onkeyup="javascript:this.value=this.value.toUpperCase();" 
-        title="Letras.Tamaño mínimo: 5. Tamaño máximo: 15"/>
+        <label for="Nombre">Nombre<br></label>
+        <input type="text" name="Nombre" placeholder="Ingrese su Nombre" required/><br>
 <!-- apellido -->
-        <label for="Apellido">:</label><br>
-        <input type="text" name="Apellido" placeholder="Ingrese su Apellido" 
-        minlength="5" maxlength="15" 
-        onkeyup="javascript:this.value=this.value.toUpperCase();" 
-        title="Letras.Tamaño mínimo: 5. Tamaño máximo: 15"/>
+        <label for="Apellido">Apellido:<br></label>
+        <input type="text" name="Apellido" placeholder="Ingrese su Apellido" required/><br>
 <!-- correo                                                             -->
-        <label for="Correo"></label><br>
-        <input type="email" value=""  name="Correo" placeholder="Ingrese su Correo Electronico" required>
+        <label for="Correo">Correo<br></label>
+        <input type="email" value=""  name="Correo" placeholder="Ingrese su Correo Electronico" required><br>
         <!--           telefono                                                   -->
-         <label for="Telefono"></label><br>
-        <input type="text" placeholder="ingrese su Telefono" name="Telefono"  
-        minlength="5" maxlength="15" required ><br>
+         <label for="Telefono">Telefono<br></label>
+        <input type="text" placeholder="ingrese su Telefono" name="Telefono" required ><br>
         <!-- USUARIO -->
-        <label for="Usuario"></label><br>
-        <input type="text" style="text-transform:uppercase;" 
-        value="Usuario"  
-        name="Usuario" 
-        title="Letras.Tamaño mínimo: 5. Tamaño máximo: 10" 
-        placeholder="Cree su Usuario">
+        <label for="usuario">Cree un usuario:<br></label>
+        <input type="text"name="usuario" title="Letras.Tamaño mínimo: 5. Tamaño máximo: 10" placeholder="Cree su Usuario"><br>
         <!-- contraseña -->
-        <label for="contraseña" ></label><br>
-        <input type="password" placeholder="Cree su Contraseña" name="contraseña" id=""required >
+        <label for="clave" >Cree una Contraseña:<br></label>
+        <input type="password" placeholder="Cree su Contraseña" name="clave" required ><br>
         <!--                              -->
         <input class="boton"type="submit"  name="Enviar Datos">
     </form>
 
 
-<a href="../proyectow/index.html">Pagina Anterior</a>
+<a href="../ProyectoWomenStore/index.html">Pagina Anterior</a>
 
 </body>
 </html>

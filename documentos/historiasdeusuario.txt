@@ -1,0 +1,11 @@
+como un cliente quiero consultar el catalogo para poder encontrar el producto que deseo comprar
+como un cliente quiero que los productos selecionados para compra puendan ser almacenados en un carrito de compras para poder visualizar todos mis productos y el precio total
+como proveedor quiero poder entrar mis productos para poder componer un catalogo y ofrecerlos por la web
+como scr‎um master quiero dar de alta a todad las actividades (product backlog planeadas) para la elaboracion de sistema y tenerlos en el sistema
+como scrum  master dar de alta a las tareas para tenerlos programados en el sprint
+como usuario web quiero consultar la tabla de pedidos para saber el estado de todos mis pedidos
+quien usuario 
+que se inscribe al usuario en la web site
+para acceder a los servicios de la aplicacion 
+como dueño de proyecto quiero tener un informe con las ventas diarias de los ultimos dias 
+para comprobar el impacto de las acciones d emarketing sobre las ventas 
