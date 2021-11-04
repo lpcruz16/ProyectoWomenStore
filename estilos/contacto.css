@@ -3,8 +3,40 @@ body{
     font-size: x-large;
     position: static;
     font-family:'Courier New', Courier, monospace;
-    background-image: linear-gradient(-45deg, #ec69c2 50%, #edd9f0f8 50%);;
-    margin: 10px;
+    background-image: linear-gradient(-45deg, hsl(319, 86%, 73%) 50%, white 50%);
+    /*background: url(../img/fondo3.gif) no-repeat;
+    background-size: 1000% 1000% ;*/
+
+    margin: 8px;
+}
+.logo{
+    text-align: right;
+    width:190px;
+}
+.menu1{
+    list-style: none;
+    padding:0;
+    background:transparent;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: x-large;
+    position: static;
+    
+}
+.menu1 li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px;
+    display: block;
+}
+.menu1 li {
+    display: inline-block;
+    text-align: left;
+}
+.menu1 li a :hover{
+    background:#e737af;
+    padding: 8px;
 }
 
 a{
@@ -19,28 +51,7 @@ table tr td img{
     padding: 50px;
     background:transparent;
 }
-.menu1{
-    list-style: center;
-    padding:0;
-    background:transparent;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-}
-.menu1 li a{
-    text-decoration: none;
-    color:#0f0f0f;
-    padding: 20px;
-    display: block;
-}
-.menu1 li{
-    display: inline-block;
-    text-align: center;
-}
-.menu1 li a:hover{
-    background: #e737af;
 
-}
 .menu3{
     list-style: center;
     padding:0;
