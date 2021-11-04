@@ -17,7 +17,7 @@ $Telefono 	    =$_POST['Telefono'];
 $usuario				=$_POST['usuario'];
 $clave    		=$_POST['clave'];
 
-$sql = "INSERT INTO clientes VALUES ('$id_cliente','$Doc_cliente','$Nombre','$Apellido','$Correo','$Telefono','$usuario','$clave')";
+$sql = "INSERT INTO clientes VALUES ('$Doc_cliente','$Nombre','$Apellido','$Correo','$Telefono','$usuario','$clave')";
 
 if ($conexion->query($sql)===TRUE){
 	echo "Registro insertado correctamente";
