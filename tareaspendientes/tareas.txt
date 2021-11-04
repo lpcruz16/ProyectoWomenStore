@@ -1,0 +1,7 @@
+quitar el id por que es auto incrementable 
+nombre y apeliido que se pongan en mayuscula , y que no pase de 20 caracteres 
+correo que solo sea correo 
+usuario con un punto que divida el primer nombre y apellido o como el usuario decida preferiblemete nombres y apellidos 
+contraseña minimo 8 maximo 10 con mayuscula y minuscula.
+realizar los disparadores de productos como reg producto, eliminacion de producto,actualizacion de producto
+en la base de datos crear el formulario de registro de productos 

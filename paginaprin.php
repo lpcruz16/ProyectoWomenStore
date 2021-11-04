@@ -11,28 +11,28 @@
 <body>
 <nav>
 <ul class="menu1">
-<li ><a href="index.php"><b>INICIO</b></I></a> </li>
-<li ><a href="productos.php"><b>PRODUCTOS</b> </a> </li>
-<li ><a href="categorias.php"><b>CATEGORIAS</b> </a> </li>
-<li ><a href="contacto.php"><b>CONTACTO</b> </a> </li>
-<li ><a href="cuenta.php"><b>CUENTA</b> </a> </li>
+<li ><a href="index.html"><b>INICIO</b></I></a> </li>
+<li ><a href="productos.html"><b>PRODUCTOS</b> </a> </li>
+<li ><a href="categorias.html"><b>CATEGORIAS</b> </a> </li>
+<li ><a href="contacto.html"><b>CONTACTO</b> </a> </li>
+<li ><a href="cuenta.html"><b>CUENTA</b> </a> </li>
 <li><a href="carro.html"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
 </ul>
 </nav>
 <hr>
 <br><br>
 <i class="fas fa-user"></i><br><br>
-IMFORMACION<br>
+<a href="">IMFORMACION</a><br>
 <br>
  <i class="far fa-calendar-alt"></i><br><br>
- HISTORIAL Y DETALLE DE PEDIDOS <br><br>
+<a href="">HISTORIAL Y DETALLE DE PEDIDOS</a> <br><br>
  <br><br>
  <i class="fas fa-clipboard"></i><br><br>
- NOTAS DE CREDITO<br><br>
+ <a href="">NOTAS DE CREDITO</a> <br><br>
   <i class="fas fa-receipt"></i><br><br>
-CUPONES <br><br>
+ <a href="">CUPONES</a> <br><br>
 <i class="fas fa-city"></i><br><br>
-DIRECCION <br><br>
+<a href="">DIRECCION</a><br><br>
 
 <form id="form2" name="form2" method="POST" action="../modelo/cerrar.php">
   <table width="31%" border="0" align="center">

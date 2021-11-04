@@ -11,37 +11,39 @@
 
 <body>
 
-    <form action="insertarUsuarios.php" method="POST" >
+    <form class="formulario" action="insertarUsuarios.php" method="POST" >
 
-        <H1>FORMULARIO REGISTRO</H1>
-        <label for="id_cliente"> id cliente <br></label>
-        <input type="text" name="id_cliente" placeholder="Un Numero" required><br>
-        <!--                                    -->
-        <label for="Doc"> N° Documento:<br></label>
+        <H4>FORMULARIO REGISTRO</H4>
+        ID:
+       <input type="text" name="id_cliente"  placeholder="Ingrese su Numero de Documento" ><br>
+        <!--                       DOC             -->
+        Numero de Documento :
         <input type="text" name="Doc"  placeholder="Ingrese su Numero de Documento"  required ><br>
         <!--                                          nombre -->
-        <label for="Nombre">Nombre<br></label>
+         Nombre :
         <input type="text" name="Nombre" placeholder="Ingrese su Nombre" required/><br>
 <!-- apellido -->
-        <label for="Apellido">Apellido:<br></label>
+       Apellido :
         <input type="text" name="Apellido" placeholder="Ingrese su Apellido" required/><br>
 <!-- correo                                                             -->
-        <label for="Correo">Correo<br></label>
-        <input type="email" value=""  name="Correo" placeholder="Ingrese su Correo Electronico" required><br>
+        Correo :
+        <input type="email" name="Correo" placeholder="Ingrese su Correo Electronico" required><br>
         <!--           telefono                                                   -->
-         <label for="Telefono">Telefono<br></label>
-        <input type="text" placeholder="ingrese su Telefono" name="Telefono" required ><br>
+        Telefono :
+        <input type="text" name="Telefono" placeholder="ingrese su Telefono"  required ><br>
         <!-- USUARIO -->
-        <label for="usuario">Cree un usuario:<br></label>
-        <input type="text"name="usuario" title="Letras.Tamaño mínimo: 5. Tamaño máximo: 10" placeholder="Cree su Usuario"><br>
+        Usuario :
+        <input type="text" name="usuario"  placeholder="Usuario Ejemplo : usuario.apellido"><br>
         <!-- contraseña -->
-        <label for="clave" >Cree una Contraseña:<br></label>
-        <input type="password" placeholder="Cree su Contraseña" name="clave" required ><br>
+        Contraseña :
+        <input type="password"  name="clave" placeholder="Cree su Contraseña " required ><br>
         <!--                              -->
-        <input class="boton"type="submit"  name="Enviar Datos">
+        <input class="boton" type="submit"  name="Enviar" value="Registrar">
+        <p>Estoy de Acuerdo con <a href="condiciones.html">Terminos y Condiciones</a> </p>
+    <p><a href="login.php">¿Ya tengo una Cuenta?</a></p>
     </form>
 
-
+<hr>
 <a href="../ProyectoWomenStore/index.html">Pagina Anterior</a>
 
 </body>

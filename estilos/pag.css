@@ -99,3 +99,9 @@ background: burlywood;
 color: #000;
 box-shadow: 3px 3px 50px chocolate;
 }
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
