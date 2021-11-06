@@ -7,7 +7,7 @@ if (!isset($usuario)){
 }else{
 
 echo " <h3> $usuario </h3>";
-echo"<a href='logica/salir.php'>SALIR </a> ";
+echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 }
 ?>
 <!DOCTYPE html>
@@ -23,14 +23,15 @@ echo"<a href='logica/salir.php'>SALIR </a> ";
 <body>
 <nav>
 <ul class="menu1">
-<li ><a href="../ProyectoWomenStore/index.html"><b>INICIO</b></I></a> </li>
-<li ><a href="../ProyectoWomenStore/productos.html"><b>PRODUCTOS</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/categorias.html"><b>CATEGORIAS</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/contacto.html"><b>CONTACTO</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/cuenta.html"><b>CUENTA</b> </a> </li>
-<li><a href="../ProyectoWomenStore/carro.html"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
+<li ><a href="../ProyectoWomenStore/interfazindex.php"><b>INICIO</b></I></a> </li>
+<li ><a href="../ProyectoWomenStore/interproductos.php"><b>PRODUCTOS</b> </a> </li>
+<li ><a href="../ProyectoWomenStore/intercategorias.php"><b>CATEGORIAS</b> </a> </li>
+<li ><a href="../ProyectoWomenStore/intercontacto.php"><b>CONTACTO</b> </a> </li>
+<li ><a href="../ProyectoWomenStore/paginaprin.php"><b>MICUENTA</b> </a> </li>
+<li ><a href="../ProyectoWomenStore/interellos.php"><b>ELLOS</b> </a> </li>
+<li><a href="../ProyectoWomenStore/intercarro.php"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
 </ul>
-</nav>
+</nav> 
 <hr>
 <br><br>
 <i class="fas fa-user"></i><br><br>

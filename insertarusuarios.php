@@ -15,7 +15,7 @@ $Apellido 	    =$_POST['Apellido'];
 $Correo					=$_POST['Correo'];
 $Telefono 	    =$_POST['Telefono'];
 $usuario				=$_POST['usuario'];
-$clave    		  =$_POST['clave'];
+$clave          =$_POST['clave'];
 
 $sql = "INSERT INTO clientes VALUES ('$id_cliente','$Doc_cliente','$Nombre','$Apellido','$Correo','$Telefono','$usuario','$clave')";
 

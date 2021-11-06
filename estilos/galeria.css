@@ -44,7 +44,6 @@ div.galeria img{
 }
 div.galeria:hover{
   border: 1px solid darkgreen;
-  transform: rotate(-2deg);
 }
 div.pie{
   text-align: center;
