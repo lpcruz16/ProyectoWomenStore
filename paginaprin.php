@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+$usuario = $_SESSION ['username'];
+if (!isset($usuario)){
+  header("location: login.php");
+}else{
+
+echo " <h3> $usuario </h3>";
+echo"<a href='logica/salir.php'>SALIR </a> ";
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,12 +23,12 @@
 <body>
 <nav>
 <ul class="menu1">
-<li ><a href="index.php"><b>INICIO</b></I></a> </li>
-<li ><a href="productos.php"><b>PRODUCTOS</b> </a> </li>
-<li ><a href="categorias.php"><b>CATEGORIAS</b> </a> </li>
-<li ><a href="contacto.php"><b>CONTACTO</b> </a> </li>
-<li ><a href="cuenta.php"><b>CUENTA</b> </a> </li>
-<li><a href="carro.html"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
+<li ><a href="../ProyectoWomenStore/index.html"><b>INICIO</b></I></a> </li>
+<li ><a href="../ProyectoWomenStore/productos.html"><b>PRODUCTOS</b> </a> </li>
+<li ><a href="../ProyectoWomenStore/categorias.html"><b>CATEGORIAS</b> </a> </li>
+<li ><a href="../ProyectoWomenStore/contacto.html"><b>CONTACTO</b> </a> </li>
+<li ><a href="../ProyectoWomenStore/cuenta.html"><b>CUENTA</b> </a> </li>
+<li><a href="../ProyectoWomenStore/carro.html"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
 </ul>
 </nav>
 <hr>
@@ -32,14 +44,6 @@ IMFORMACION<br>
   <i class="fas fa-receipt"></i><br><br>
  <a href="">CUPONES</a> <br><br>
 <i class="fas fa-city"></i><br><br>
-<a>DIRECCION</a> <br><br>
-
-<form id="form2" name="form2" method="POST" action="../modelo/cerrar.php">
-  <table width="31%" border="0" align="center">
-    <tr>
-      <td colspan="2" align="center" bgcolor="blue"><input type="submit" name="button" id="button" value="Cerrar Sesion"/></td>
-      </table>
-      </form>
-
+<a href="">DIRECCION</a> <br><br> <br><br>
 </body>
 </html>
