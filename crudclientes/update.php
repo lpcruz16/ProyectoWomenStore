@@ -12,7 +12,7 @@ $celular=$_POST['celular'];
 $usuario=$_POST['usuario'];
 $contraseña=$_POST['contraseña'];
 
-$sql="UPDATE crud_cliente SET  doc_cliente='$doc_cliente',nombres='$nombres',apellidos='$apellidos',correo='$correo',celular='$celular',usuario='$usuario',contraseña='$contraseña' WHERE cod_estudiante='$cod_estudiante'";
+$sql="UPDATE crud_cliente SET  doc_cliente='$doc_cliente',nombres='$nombres',apellidos='$apellidos',correo='$correo',celular='$celular',usuario='$usuario',contraseña='$contraseña' WHERE id_cliente='$id_cliente'";
 $query=mysqli_query($con,$sql);
 
     if($query){

@@ -42,14 +42,14 @@
                             <table class="table" >
                                 <thead class="table-success table-striped" >
                                     <tr>
-                                        <th>Id_cliente</th>
-                                        <th>Doc_cliente</th>
-                                        <th>Nombres</th>
-                                        <th>Apellidos</th>
-                                        <th>Correo</th>
-                                        <th>Celular</th>
-                                        <th>Usuario</th>
-                                        <th>Contraseña</th>
+                                        <th> Id_cliente </th>
+                                        <th> Doc_cliente </th>
+                                        <th> Nombres </th>
+                                        <th> Apellidos </th>
+                                        <th> Email </th>
+                                        <th> N° Celular</th>
+                                        <th> Usuario </th>
+                                        <th> Contraseña </th>
                                     </tr>
                                 </thead>
 
