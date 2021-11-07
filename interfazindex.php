@@ -101,11 +101,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 <b><a href="../ProyectoWomenStore/finalizar.html">✔FINALIZAR COMPRA</a></b><br>
 <b><a href="../ProyectoWomenStore/rastrear.html">✔RASTREAR PEDIDO</a></b><br>
 <b><a href="../ProyectoWomenStore/chatear.html">✔CHATEAR CON NOSOTROS</a></b><br>
-<!-- inicio botones de registro -->
-<input  class="btn" type ='button' value = 'Iniciar Sesion' onclick="window.open('login.php ');"/>
-<input  class="btn" type='button' value = 'Registrese' onclick="window.open('registro.html ');"/>
-</td><br>
-<!-- fin de las imagenes y los botones  -->
+
 <td><img src="../ProyectoWomenStore/img/imagen2.jpg" width="560px" height="400px"alt=""></td><hr>
 <td><img src="../ProyectoWomenStore/img/imagen3.jpg" width="560px" height="400px"alt=""></td>
 </tr>

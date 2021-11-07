@@ -103,3 +103,21 @@ box-shadow: 3px 3px 50px chocolate;
 .expire {
   color: red;
 }
+div.galeria{
+  margin: 10px 20px;
+  box-shadow: 0 4px 10px 0 lightblue,0 6px 20px rgba(0, 0, 0, 0.19);
+  float:left ;
+  width: 290px;
+}
+div.galeria img{
+  width: 100%;
+  height: 260px;
+}
+/* div.galeria:hover{
+  border: 1px solid red;
+} */
+div.pie{
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(248, 116, 248);
+  padding: 10px;
+}

@@ -4,9 +4,6 @@ body{
     position: static;
     font-family:'Courier New', Courier, monospace;
     background-image: linear-gradient(-45deg, hsl(319, 86%, 73%) 50%, white 50%);
-    /*background: url(../img/fondo3.gif) no-repeat;
-    background-size: 1000% 1000% ;*/
-
     margin: 8px;
 }
 .menu1{
@@ -96,9 +93,9 @@ table tr td b img{
 }
 .container{
   margin: auto;
-  background-color: #e9b1b8;
+  background-color: #e06dbe;
   width: 1100px;
-  padding: 20px;
+  padding: 30px;
 }
 
 ul, li {
@@ -110,7 +107,7 @@ ul, li {
 ul.slider{
   position: relative;
   width: 700px;
-  height: 400px;
+  height: 430px;
 }
 
 ul.slider li {
@@ -121,12 +118,12 @@ ul.slider li {
     width: inherit;
     height: inherit;
     transition: opacity .5s;
-    background:#e9b1b8;
+    background:#e470c1;
 }
 
 ul.slider li img{
   width: 1100px;
-  height: 350px;
+  height: 410px;
   object-fit: fill;
 }
 

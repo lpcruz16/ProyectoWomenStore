@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registro Proveedor</title>
+    	<link rel="stylesheet" type="text/css" href="../ProyectoWomenStore/estilos/registro.css">
+        <link rel="icon" href="../proyecto/ico.ico">
+</head>
+
+<body>
+
+    <form class="formulario" action="insertarprove.php" method="POST" >
+
+        <H4>FORMULARIO REGISTRO PROVEEDOR</H4>
+        iD:
+       <input type="text" name="id_Proveedor"  placeholder="Espacio en blanco" ><br>
+        <!--                       NIT             -->
+        Nit Empresa  :
+        <input type="text" name="Nit"  placeholder="Ingrese Nit Empresa "  required maxlength="10"><br>
+        <!--                                          nombre -->
+         Nombre Empresa :
+        <input type="text" name="NombreEmpresa" placeholder="Ingrese su Nombre" maxlength="20" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required><br>
+<!-- apellido -->
+        Nombre Encargado:
+        <input type="text" name="Nombrep" placeholder="Ingrese Nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" required><br>
+         <!--                       DOC             -->
+        Numero de Documento :
+        <input type="text" name="Doc_proveedor"  placeholder="Ingrese su Numero de Documento"  required maxlength="10"  ><br>
+<!-- correo                                                             -->
+        Correo Empresa :
+        <input type="email" name="Correop" placeholder="Ingrese su Correo Electronico" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required ><br>
+        <!--           telefono                                                   -->
+        Telefono Empresa:
+        <input type="text" name="Telefonop" placeholder="Digite su Numero Celular"  required  maxlength="9"  ><br>
+        <!-- USUARIO -->
+        Usuario Proveedor :
+        <input type="text" name="Usuariop"  placeholder=" &#128274 Usuario Ejemplo : usuario.apellido" maxlength="16" minlength="15" pattern="^([a-z]+[0-9]{0,2}){5,12}$" required ><br>
+        <!-- contraseña -->
+        Contraseña :
+        <input type="password"  name="Clavep" placeholder=" &#128273Cree su Contraseña " pattern="[A-Za-z0-9!?-]{8,12}" required title="" ><br>
+        <!--                              -->
+        <input class="boton" type="submit"  name="Enviar" value="Registrar Proveedor">
+        <p>Estoy de Acuerdo con <a href="condiciones.html">Terminos y Condiciones</a> </p>
+    <p><a href="login.php">¿Ya tengo una Cuenta?</a></p>
+    </form>
+
+<hr>
+<a href="../ProyectoWomenStore/index.html">Pagina Anterior</a>
+
+</body>
+</html>

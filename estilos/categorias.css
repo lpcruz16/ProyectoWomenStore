@@ -72,10 +72,10 @@ div.galeria img{
   width: 100%;
   height: auto;
 }
-div.galeria:hover{
+/* div.galeria:hover{
   border: 1px solid darkgreen;
-  transform: rotate(-3deg);
-}
+  transform: rotate(-3deg); */
+/* } */
 div.pie{
   text-align: center;
   text-shadow: 2px 2px 5px purple;

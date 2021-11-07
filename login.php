@@ -8,7 +8,6 @@
   <title>Login</title>
 </head>
 <body>
-      <h1>INICIO DE SESION</h1>
   <center>
   
     <form class="formulario" action="controlador/loguear.php" method="POST">
