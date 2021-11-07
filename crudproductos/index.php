@@ -22,7 +22,7 @@
                     <div class="row"> 
                         
                         <div class="col-md-3">
-                            <h1> INGRESAR DATOS </h1>
+                            <h1>  INGRESO DE DATOS: </h1>
                                 <form action="insertar.php" method="POST">
 
                                     <input type="text" class="form-control mb-3" name="id_productos" placeholder="Id del Producto"> 
@@ -41,13 +41,13 @@
                             <table class="table" >
                                 <thead class="table-success table-striped" >
                                     <tr>
-                                        <th>Id Productos</th>
-                                        <th>Id Categorias</th>
-                                        <th>Nombre Producto</th>
-                                        <th>Stock</th>
-                                        <th>Valor Unitario</th>
+                                        <th>Id del Producto</th>
+                                        <th>Id de la Categoria</th>
+                                        <th>Nombre del Producto</th>
+                                        <th> Stock </th>
+                                        <th> $Valor Unitario </th>
                                         <th></th>
-                                        <th></th>
+                                
                                     </tr>
                                 </thead>
 
