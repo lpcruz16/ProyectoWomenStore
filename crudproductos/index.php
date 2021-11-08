@@ -22,7 +22,7 @@
                     <div class="row"> 
                         
                         <div class="col-md-3">
-                            <h1>  INGRESO DE DATOS: </h1>
+                            <h1>  INGRESAR LOS DATOS: </h1>
                                 <form action="insertar.php" method="POST">
 
                                     <input type="text" class="form-control mb-3" name="id_productos" placeholder="Id del Producto"> 
