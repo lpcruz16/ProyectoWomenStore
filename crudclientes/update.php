@@ -3,16 +3,16 @@
 include("conexion.php");
 $con=conectar();
 
-$id_cliente=$_POST['id_cliente'];
-$doc_cliente=$_POST['doc_cliente'];
-$nombres=$_POST['nombres'];
-$apellidos=$_POST['apellidos'];
-$correo=$_POST['correo'];
-$celular=$_POST['celular'];
-$usuario=$_POST['usuario'];
-$contraseña=$_POST['contraseña'];
+$id_cliente  =$_POST['id_cliente'];
+$doc_cliente =$_POST['Doc_cliente'];
+$nombres     =$_POST['Nombre'];
+$apellidos   =$_POST['Apellido'];
+$correo      =$_POST['Correo'];
+$celular     =$_POST['Telefono'];
+$usuario     =$_POST['usuario'];
+$clave       =$_POST['clave'];
 
-$sql="UPDATE crud_cliente SET  doc_cliente='$doc_cliente',nombres='$nombres',apellidos='$apellidos',correo='$correo',celular='$celular',usuario='$usuario',contraseña='$contraseña' WHERE id_cliente='$id_cliente'";
+$sql="UPDATE crud_cliente SET  Doc_cliente='$Doc_cliente',Nombre='$Nombre',Apellido='$Apellido',Correo='$Correo',Telefono='$Telefono',usuario='$usuario',clave='$clave' WHERE id_cliente='$id_cliente'";
 $query=mysqli_query($con,$sql);
 
     if($query){

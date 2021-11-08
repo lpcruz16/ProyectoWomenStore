@@ -3,16 +3,16 @@ include("conexion.php");
 $con=conectar();
 
 $id_cliente=$_POST['id_cliente'];
-$doc_cliente=$_POST['doc_cliente'];
-$nombres=$_POST['nombres'];
-$apellidos=$_POST['apellidos'];
-$correo=$_POST['correo'];
-$celular=$_POST['celular'];
+$Doc_cliente=$_POST['Doc_cliente'];
+$Nombre=$_POST['Nombre'];
+$Apellido=$_POST['Apellido'];
+$Correo=$_POST['Correo'];
+$Telefono=$_POST['Telefono'];
 $usuario=$_POST['usuario'];
-$contraseña=$_POST['contraseña'];
+$clave=$_POST['clave'];
 
 
-$sql="INSERT INTO crud_cliente VALUES('$id_cliente','$doc_cliente','$nombres','$apellidos','$correo','$celular','$usuario','$contraseña')";
+$sql="INSERT INTO crud_cliente VALUES('$id_cliente','$Doc_cliente','$Nombre','$Apellido','$Correo','$Telefono','$usuario','$clave')";
 $query= mysqli_query($con,$sql);
 
 if($query){

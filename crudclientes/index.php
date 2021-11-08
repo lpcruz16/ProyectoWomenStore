@@ -2,7 +2,7 @@
     include("conexion.php");
     $con=conectar();
 
-    $sql="SELECT *  FROM crud_cliente";
+    $sql="SELECT *  FROM clientes";
     $query=mysqli_query($con,$sql);
 
     $row=mysqli_fetch_array($query);
@@ -26,13 +26,13 @@
                                 <form action="insertar.php" method="POST">
 
                                     <input type="text" class="form-control mb-3" name="id_cliente" placeholder="id_cliente">
-                                    <input type="text" class="form-control mb-3" name="doc_cliente" placeholder="doc_cliente">
-                                    <input type="text" class="form-control mb-3" name="nombres" placeholder="nombres">
-                                    <input type="text" class="form-control mb-3" name="apellidos" placeholder="apellidos">
-                                    <input type="text" class="form-control mb-3" name="correo" placeholder="correo">
-                                    <input type="text" class="form-control mb-3" name="celular" placeholder="celular">
+                                    <input type="text" class="form-control mb-3" name="Doc_cliente" placeholder="doc_cliente">
+                                    <input type="text" class="form-control mb-3" name="Nombre" placeholder="nombres">
+                                    <input type="text" class="form-control mb-3" name="Apellido" placeholder="apellidos">
+                                    <input type="text" class="form-control mb-3" name="Correo" placeholder="correo">
+                                    <input type="text" class="form-control mb-3" name="Telefono" placeholder="celular">
                                     <input type="text" class="form-control mb-3" name="usuario" placeholder="usuario">
-                                    <input type="text" class="form-control mb-3" name="contraseña" placeholder="contraseña">
+                                    <input type="text" class="form-control mb-3" name="clave" placeholder="contraseña">
                                     
                                     <input type="submit" class="btn btn-primary">
                                 </form>
@@ -59,13 +59,13 @@
                                         ?>
                                             <tr>
                                                 <th><?php  echo $row['id_cliente']?></th>
-                                                <th><?php  echo $row['doc_cliente']?></th>
-                                                <th><?php  echo $row['nombres']?></th>
-                                                <th><?php  echo $row['apellidos']?></th>
-                                                <th><?php  echo $row['correo']?></th>
-                                                <th><?php  echo $row['celular']?></th>  
+                                                <th><?php  echo $row['Doc_cliente']?></th>
+                                                <th><?php  echo $row['Nombre']?></th>
+                                                <th><?php  echo $row['Apellido']?></th>
+                                                <th><?php  echo $row['Correo']?></th>
+                                                <th><?php  echo $row['Telefono']?></th>  
                                                 <th><?php  echo $row['usuario']?></th>
-                                                <th><?php  echo $row['contraseña']?></th>  
+                                                <th><?php  echo $row['clave']?></th>  
                                                 <th><a href="actualizar.php?id=<?php echo $row['id_cliente'] ?>" class="btn btn-info">Editar</a></th>
                                                 <th><a href="delete.php?id=<?php echo $row['id_cliente'] ?>" class="btn btn-danger">Eliminar</a></th>                                        
                                             </tr>
