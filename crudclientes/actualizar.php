@@ -4,7 +4,7 @@
 
 $id=$_GET['id'];
 
-$sql="SELECT * FROM crud_cliente WHERE id_cliente='$id'";
+$sql="SELECT * FROM clientes WHERE id_cliente='$id'";
 $query=mysqli_query($con,$sql);
 
 $row=mysqli_fetch_array($query);
@@ -26,13 +26,13 @@ $row=mysqli_fetch_array($query);
                     <form action="update.php" method="POST">
                     
                                 <input type="hidden" name="id_cliente" value="<?php echo $row['id_cliente']  ?>">
-                                <input type="text" class="form-control mb-3" name="doc_cliente" placeholder="doc_cliente" value="<?php echo $row['doc_cliente']  ?>">
-                                <input type="text" class="form-control mb-3" name="nombres" placeholder="nombres" value="<?php echo $row['nombres']  ?>">
-                                <input type="text" class="form-control mb-3" name="apellidos" placeholder="apellidos" value="<?php echo $row['apellidos']  ?>">
-                                <input type="text" class="form-control mb-3" name="correo" placeholder="correo" value="<?php echo $row['correo']  ?>">
-                                <input type="text" class="form-control mb-3" name="celular" placeholder="celular" value="<?php echo $row['celular']  ?>">
+                                <input type="text" class="form-control mb-3" name="Doc_cliente" placeholder="doc_cliente" value="<?php echo $row['Doc_cliente']  ?>">
+                                <input type="text" class="form-control mb-3" name="Nombre" placeholder="nombres" value="<?php echo $row['Nombre']  ?>">
+                                <input type="text" class="form-control mb-3" name="Apellido" placeholder="apellidos" value="<?php echo $row['Apellido']  ?>">
+                                <input type="text" class="form-control mb-3" name="Correo" placeholder="correo" value="<?php echo $row['Correo']  ?>">
+                                <input type="text" class="form-control mb-3" name="Telefono" placeholder="celular" value="<?php echo $row['Telefono']  ?>">
                                 <input type="text" class="form-control mb-3" name="usuario" placeholder="usuario" value="<?php echo $row['usuario']  ?>">
-                                <input type="text" class="form-control mb-3" name="contraseña" placeholder="contraseña" value="<?php echo $row['contraseña']  ?>">
+                                <input type="text" class="form-control mb-3" name="clave" placeholder="contraseña" value="<?php echo $row['clave']  ?>">
 
                             <input type="submit" class="btn btn-primary btn-block" value="Actualizar">
                     </form>
