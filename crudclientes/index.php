@@ -10,10 +10,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> Formulario </title>
+        <title> Edicion </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../ProyectoWomenStore/crudclientes/estilos/estilocrud.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         
     </head>
@@ -22,7 +22,7 @@
                     <div class="row"> 
                         
                         <div class="col-md-3">
-                            <h1> INGRESAR LOS DATOS: </h1>
+                            <h1> EDICION DE DATOS: </h1>
                                 <form action="insertar.php" method="POST">
 
                                     <input type="text" class="form-control mb-3" name="id_cliente" placeholder="id_cliente">

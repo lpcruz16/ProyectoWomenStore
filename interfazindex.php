@@ -38,7 +38,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 <li ><a href="../ProyectoWomenStore/paginaprin.php"><b>MICUENTA</b> </a> </li>
 <li ><a href="../ProyectoWomenStore/interellos.php"><b>ELLOS</b> </a> </li>
 <li><a href="../ProyectoWomenStore/intercarro.php"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
-<li><a href="../ProyectoWomenStore/crudclientes/index.php"> <div class="editar"><i class="fas fa-file-signature"></i> </div> <li>
+<li><a href="../ProyectoWomenStore/crudclientes/index.php"> <b>EDITAR</b> <div class="editar"><i class="fas fa-file-signature"></i> </div> <li>
 </ul>
 </nav> 
 </h1>
