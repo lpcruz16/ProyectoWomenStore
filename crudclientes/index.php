@@ -77,5 +77,6 @@
                         </div>
                     </div>  
             </div>
+            <a href="../ProyectoWomenStore/interfazindex.php"><b>Regresar</b> </a>
     </body>
 </html>

@@ -12,7 +12,7 @@ $usuario=$_POST['usuario'];
 $clave=$_POST['clave'];
 
 
-$sql="INSERT INTO crud_cliente VALUES('$id_cliente','$Doc_cliente','$Nombre','$Apellido','$Correo','$Telefono','$usuario','$clave')";
+$sql="INSERT INTO clientes VALUES('$id_cliente','$Doc_cliente','$Nombre','$Apellido','$Correo','$Telefono','$usuario','$clave')";
 $query= mysqli_query($con,$sql);
 
 if($query){
