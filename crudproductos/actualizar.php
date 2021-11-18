@@ -4,7 +4,7 @@
 
 $id=$_GET['id'];
 
-$sql="SELECT * FROM crud_product WHERE id_productos='$id'";
+$sql="SELECT * FROM productos  WHERE id_productos='$id'";
 $query=mysqli_query($con,$sql);
 
 $row=mysqli_fetch_array($query);
