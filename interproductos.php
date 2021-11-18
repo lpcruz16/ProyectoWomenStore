@@ -42,7 +42,6 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 		<tr>
 			<td><a href="../ProyectoWomenStore/regalos.html"><img  src="../ProyectoWomenStore/img/bonita.jpg"title="Regalos"><br>REGALOS </a></a></td>
 			<td><a href="../ProyectoWomenStore/ofertas.html"><img src="../ProyectoWomenStore/img/oferta2.jpg"title="Ofertas" ><br>OFERTAS</a></td></b>  
-			<td><a href="../ProyectoWomenStore/destacados.html"> <img src="../ProyectoWomenStore/img/destacados.jfif" title="Destacados"><br> DESTACADOS</a></a></td>
 		</tr>
 	</table>
 
