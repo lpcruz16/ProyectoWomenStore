@@ -50,9 +50,9 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 <li ><a href="../ProyectoWomenStore/preguntas.html"><b>¿Preguntas Frecuentes?</b> </a> </li>
 </ul>
 <div class="con">
-  <button><i class="fab fa-facebook"></i></button> <b> https://www.facebook.com/WomenStore-102504158766530 </b>
-  <button><i class="fab fa-whatsapp"></i></button> 
-  <button><i class="fab fa-instagram"></i></button> 
+  <button><i class="fab fa-facebook"> <a href="https://www.facebook.com/WomenStore-102504158766530/"></a></i></button>
+  <button><i class="fab fa-whatsapp"> <a href="https://chat.whatsapp.com/F3XlAoAPM7mLsFmagqavr9"> </a> </i></button>
+  <button><i class="fab fa-instagram"> <a href="https://www.instagram.com/womenstore1458?r=nametag"></a></i></button>
 </div>
 </body>
 </html>

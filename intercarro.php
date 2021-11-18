@@ -38,7 +38,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 </nav> 
   </header> 
 
-<h2>CARRITO DE  COMPRA</h2>
+<h2>CARRITO DE COMPRA</h2>
 <ul class="menu3">
 <li ><a href="../ProyectoWomenStore/condiciones.html "><b>Condiciones</b></I></a> </li>
 <li ><a href="../ProyectoWomenStore/quienes.html "><b>¿Quienes somos?</b> </a> </li>

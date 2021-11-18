@@ -43,9 +43,9 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR</a> ";
     Siguenos <br>
     Nuestras Redes Sociales <br>
     Instagram: <a href="https://www.instagram.com/womenstore1458?r=nametag">WOMAN STORE</a> <br>
-    WOMAN.STORE <br>
-    CODIGO QR <br>
-   Facebook:<a href="https://www.facebook.com/WomenStore-102504158766530/">WOMAN STORE</a> <br>
+    WOMAN.STORE <br> 
+    CODIGO QR <br> <img src="../ProyectoWomenStore/img/codigo.jpg" width="56px" height="40px"alt="">
+    Facebook:<a href="https://www.facebook.com/WomenStore-102504158766530/">WOMAN STORE</a> <br>
 
 <a href="../proyectow/index.php">Inicio</a>
 <ul class="menu3">
@@ -55,8 +55,8 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR</a> ";
 <li ><a href="../ProyectoWomenStore/preguntas.html"><b>¿Preguntas Frecuentes?</b> </a> </li>
 </ul>
   <button><i class="fab fa-facebook"><a href="https://www.facebook.com/WomenStore-102504158766530/"></a></i></button>
-  <button><i class="fab fa-whatsapp"></i></button>
-  <button><i class="fab fa-instagram"></i></button>
+  <button><i class="fab fa-whatsapp"><a href="https://chat.whatsapp.com/F3XlAoAPM7mLsFmagqavr9"> </a> </i></button> 
+  <button><i class="fab fa-instagram">< <a href="https://www.instagram.com/womenstore1458?r=nametag"></a></i></button> 
 
 </body>
 </html>
