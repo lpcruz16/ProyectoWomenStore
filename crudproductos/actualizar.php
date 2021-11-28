@@ -26,8 +26,8 @@ $row=mysqli_fetch_array($query);
                     <form action="update.php" method="POST">
                     
                                 <input type="hidden" name="id_productos" value="<?php echo $row['id_productos']  ?>">
-                                <input type="text" class="form-control mb-3" name="id_categorias" placeholder="id_categorias" value="<?php echo $row['id_categorias']  ?>">
-                                <input type="text" class="form-control mb-3" name="nombrep" placeholder="nombrep" value="<?php echo $row['nombrep']  ?>">
+                                <input type="text" class="form-control mb-3" name="id_categoria" placeholder="id_categorias" value="<?php echo $row['id_categoria']  ?>">
+                                <input type="text" class="form-control mb-3" name="nombre" placeholder="nombre" value="<?php echo $row['nombre']  ?>">
                                 <input type="text" class="form-control mb-3" name="stock" placeholder="stock" value="<?php echo $row['stock']  ?>">
                                 <input type="text" class="form-control mb-3" name="valorunitario" placeholder="valorunitario" value="<?php echo $row['valorunitario']  ?>">                                
                             <input type="submit" class="btn btn-primary btn-block" value="Actualizar">

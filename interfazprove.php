@@ -2,12 +2,12 @@
 
 session_start();
 $usuario = $_SESSION ['username'];
-if (!isset($Usuariop)){
-  header("location: login2.php");
+if (!isset($usuario)){
+  header("location: login.php");
 }else{
 
 echo " <h3> $usuario </h3>";
-echo"<a href='../ProyectoWomenStore/modelo/salir2.php'>SALIR</a> ";
+echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 }
 ?>
 <!DOCTYPE html>

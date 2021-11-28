@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    font-size: x-large;
+    position: static;
+    font-family:'Courier New', Courier, monospace;
+    background-image: linear-gradient(-45deg, hsl(319, 86%, 73%)40%, white 40%);
+    /*background: url(../img/fondo3.gif) no-repeat;
+    background-size: 1000% 1000% ;*/
+
+    margin: 8px;
+}
+header{
+  z-index: 100;
+}
+.description{
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 80px;
+}
+.carrito{
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.table__productos{
+  display: flex;
+}
+.table__productos > img{
+width: 9rem;
+object-fit: contain;
+border-radius: 6px;
+margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border:none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.menu1{
+    list-style: none;
+    padding:0;
+    background:transparent;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: x-large;
+    position: static;
+    
+}
+.menu1 li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px;
+    display: block;
+}
+.menu1 li {
+    display: inline-block;
+    text-align: left;
+}
+.menu1 li a :hover{
+    background:#e737af;
+    padding: 8px;
+}
+table tr td a img{
+    border: 4px solid black;
+    width:250px;
+    height:250px;
+    display: inline-block;
+    text-align: center;
+    padding:0;
+}
+table tr td a{
+    text-decoration: none;
+    color: #000000;
+}
+.menu3 li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 20px;
+    display: block;
+}
+.menu3 li {
+    display: inline-block;
+    text-align: center;
+}
+.menu3 li a :hover{
+    background:#d6d1d4;
+    padding: 10px;
+}

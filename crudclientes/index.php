@@ -22,17 +22,17 @@
                     <div class="row"> 
                         
                         <div class="col-md-3">
-                            <h1> INGRESAR DATOS: </h1>
+                            <h1> REGISTRE NUEVAMENTE SUS DATOS </h1>
                                 <form action="insertar.php" method="POST">
 
-                                    <input type="text" class="form-control mb-3" name="id_cliente" placeholder="id_cliente">
-                                    <input type="text" class="form-control mb-3" name="Doc_cliente" placeholder="doc_cliente">
-                                    <input type="text" class="form-control mb-3" name="Nombre" placeholder="nombres">
-                                    <input type="text" class="form-control mb-3" name="Apellido" placeholder="apellidos">
-                                    <input type="text" class="form-control mb-3" name="Correo" placeholder="correo">
-                                    <input type="text" class="form-control mb-3" name="Telefono" placeholder="celular">
-                                    <input type="text" class="form-control mb-3" name="usuario" placeholder="usuario">
-                                    <input type="text" class="form-control mb-3" name="clave" placeholder="contraseña">
+                                    <input type="text" class="form-control mb-3" name="id_cliente" placeholder="Espacio En Blanco">
+                                    <input type="text" class="form-control mb-3" name="Doc_cliente" placeholder="N° de Documento">
+                                    <input type="text" class="form-control mb-3" name="Nombre" placeholder="Nombres">
+                                    <input type="text" class="form-control mb-3" name="Apellido" placeholder="Apellidos">
+                                    <input type="text" class="form-control mb-3" name="Correo" placeholder="Correo">
+                                    <input type="text" class="form-control mb-3" name="Telefono" placeholder="Celular">
+                                    <input type="text" class="form-control mb-3" name="usuario" placeholder="Usuario">
+                                    <input type="text" class="form-control mb-3" name="clave" placeholder="Contraseña">
                                     
                                     <input type="submit" class="btn btn-primary">
                                 </form>

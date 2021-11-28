@@ -2,7 +2,7 @@
     include("conexion.php");
     $con=conectar();
 
-    $sql="SELECT *  FROM crud_product";
+    $sql="SELECT *  FROM productos";
     $query=mysqli_query($con,$sql);
 
     $row=mysqli_fetch_array($query);
@@ -26,8 +26,8 @@
                                 <form action="insertar.php" method="POST">
 
                                     <input type="text" class="form-control mb-3" name="id_productos" placeholder="Id del Producto"> 
-                                    <input type="text" class="form-control mb-3" name="id_categorias" placeholder="Id de la Categoria">
-                                    <input type="text" class="form-control mb-3" name="nombrep" placeholder="Nombre del Producto"> 
+                                    <input type="text" class="form-control mb-3" name="id_categoria" placeholder="Id de la Categoria">
+                                    <input type="text" class="form-control mb-3" name="nombre" placeholder="Nombre del Producto"> 
                                     <input type="text" class="form-control mb-3" name="stock" placeholder="Stock"> 
                                     <input type="text" class="form-control mb-3" name="valorunitario" placeholder="Valor Unitario">                               
                                     <input type="submit" class="btn btn-primary">
@@ -44,8 +44,8 @@
                                         <th>Id del Producto</th>
                                         <th>Id de la Categoria</th>
                                         <th>Nombre del Producto</th>
-                                        <th> Stock </th>
-                                        <th> $Valor Unitario </th>
+                                        <th>Stock </th>
+                                        <th>$Valor Unitario </th>
                                         <th></th>
                                 
                                     </tr>
@@ -57,8 +57,8 @@
                                         ?>
                                             <tr>
                                                 <th><?php  echo $row['id_productos']?></th>
-                                                <th><?php  echo $row['id_categorias']?></th>
-                                                <th><?php  echo $row['nombrep']?></th>
+                                                <th><?php  echo $row['id_categoria']?></th>
+                                                <th><?php  echo $row['nombre']?></th>
                                                 <th><?php  echo $row['stock']?></th>
                                                 <th><?php  echo $row['valorunitario']?></th>    
                                                 <th><a href="actualizar.php?id=<?php echo $row['id_productos'] ?>" class="btn btn-info">Editar</a></th>
@@ -72,5 +72,16 @@
                         </div>
                     </div>  
             </div>
+            <p><b>Categorias: </b>
+            <p>02 DEPILACION <br>
+               03 FRAGANCIAS <br>
+               04 CUIDADO CORPORAL <br> 
+               O5 PROTECCION SOLAR <br> 
+               06 MAQUILLAJE  <br> 
+               07 MANICURA Y PEDICURA <br> 
+               08 CUIDADO DEL CABELLO  <br> 
+               09 TRATAMIENTOS  <br> 
+</p>
+<a href="../interfazindex.php">pagina anterior</a>
     </body>
 </html>

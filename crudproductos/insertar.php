@@ -2,14 +2,14 @@
 include("conexion.php");
 $con=conectar();
 
-$id_productos=$_POST['id_productos'];
-$id_categorias=$_POST['id_categorias'];
-$nombrep=$_POST['nombrep'];
-$stock=$_POST['stock'];
+$id_productos =$_POST['id_productos'];
+$id_categoria =$_POST['id_categoria'];
+$nombre       =$_POST['nombre'];
+$stock        =$_POST['stock'];
 $valorunitario=$_POST['valorunitario'];
 
 
-$sql="INSERT INTO crud_product VALUES('$id_productos','$id_categorias','$nombrep','$stock','$valorunitario')";
+$sql="INSERT INTO productos VALUES('$id_productos','$id_categoria','$nombre','$stock','$valorunitario')";
 $query= mysqli_query($con,$sql);
 
 if($query){
