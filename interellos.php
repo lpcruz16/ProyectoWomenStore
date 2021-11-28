@@ -40,7 +40,6 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 		<tr>
 			<td><a href="../ProyectoWomenStore/regalos.html"><img  src="../ProyectoWomenStore/img/bonita.jpg"title="Regalos"><br>REGALOS </a></a></td>
 			<td><a href="../ProyectoWomenStore/ofertas.html"><img src="../ProyectoWomenStore/img/oferta2.jpg"title="Ofertas" ><br>OFERTAS</a></td></b>  
-			<td><a href="../ProyectoWomenStore/destacados.html"> <img src="../ProyectoWomenStore/img/destacados.jfif" title="Destacados"><br> DESTACADOS</a></a></td>
 		</tr>
 	</table>
   </header> 
@@ -51,9 +50,9 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 <li ><a href="../ProyectoWomenStore/preguntas.html"><b>¿Preguntas Frecuentes?</b> </a> </li>
 </ul>
 <div class="con">
-  <button><i class="fab fa-facebook"></i></button>
-  <button><i class="fab fa-whatsapp"></i></button>
-  <button><i class="fab fa-instagram"></i></button>
+  <button><i class="fab fa-facebook"> <a href="https://www.facebook.com/WomenStore-102504158766530/"></a></i></button>
+  <button><i class="fab fa-whatsapp"> <a href="https://chat.whatsapp.com/F3XlAoAPM7mLsFmagqavr9"> </a> </i></button>
+  <button><i class="fab fa-instagram"> <a href="https://www.instagram.com/womenstore1458?r=nametag"></a></i></button>
 </div>
 </body>
 </html>

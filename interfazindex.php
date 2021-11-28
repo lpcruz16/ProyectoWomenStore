@@ -57,7 +57,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
     <li id="slide3">
       <h2>15% COMPRAS SUPERIORES A $50.000 / DESPACHAMOS TU PEDIDO EN 24 HRS</h2>
       <p><a href="../ProyectoWomenStore/regalos.html">¡Regalos!</a></p>
-      <a href="https://kikopalomares.com/">¡Visitanos en nuestras redes sociales</a>
+      <a href="https://www.facebook.com/WomenStore-102504158766530">¡Visitanos en nuestras redes sociales</a>
     </li>
      <li id="slide4">
       <img src="../ProyectoWomenStore/img/nutribela.jpg"/>

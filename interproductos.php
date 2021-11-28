@@ -42,7 +42,6 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 		<tr>
 			<td><a href="../ProyectoWomenStore/regalos.html"><img  src="../ProyectoWomenStore/img/bonita.jpg"title="Regalos"><br>REGALOS </a></a></td>
 			<td><a href="../ProyectoWomenStore/ofertas.html"><img src="../ProyectoWomenStore/img/oferta2.jpg"title="Ofertas" ><br>OFERTAS</a></td></b>  
-			<td><a href="../ProyectoWomenStore/destacados.html"> <img src="../ProyectoWomenStore/img/destacados.jfif" title="Destacados"><br> DESTACADOS</a></a></td>
 		</tr>
 	</table>
 
@@ -55,7 +54,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
       <img src="img/1.jpg" alt="">
     </div>
     <div class="pie">
-      <h5>Polvos Compacto Marca DAZZLE <br>
+      <h5>POLVOS COMPACTO Marca DAZZLE <br>
       $10.999</h5>
     </div>
   </div>
@@ -75,7 +74,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
       <img src="img/crema2.jpg" alt="">
     </div>
     <div class="pie">
-      <h5>Crema corporal <br>
+      <h5>CREMAS CORPORAL<br>
       $17.899</h5><br>
     </div>
   </div>
@@ -85,7 +84,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
       <img src="img/esmaltes.jpg" alt="">
     </div>
     <div class="pie">
-      <h5>Esmaltes EVON<br>
+      <h5>ESMALTES EVON<br>
       $4.999</h5><br>
     </div>
   </div>
@@ -137,7 +136,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
       <img src="img/depilacion1.jpg" alt="">
     </div>
     <div class="pie">
-      <p>Depilacion</p>
+      <p>DEPILACION</p>
       <p><a href="">Ver mas...</a></p>
     </div>
   </div>
