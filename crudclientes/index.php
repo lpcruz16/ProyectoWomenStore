@@ -13,7 +13,7 @@
         <title> Edicion </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../ProyectoWomenStore/crudclientes/estilocrud.css">
+        <link rel="stylesheet" href="crudclientes/estilocrud.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         
     </head>
@@ -77,6 +77,6 @@
                         </div>
                     </div>  
             </div>
-            <a href="../ProyectoWomenStore/interfazindex.php"><b>Regresar</b> </a>
+            <a href="interfazindex.php"><b>Regresar</b> </a>
     </body>
 </html>
