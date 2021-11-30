@@ -1,10 +1,10 @@
 <?php
 function conectar(){
     $host="localhost";
-    $user="root";
-    $pass="";
+    $user="u991668360_women";
+    $pass="Women123";
 
-    $bd="womenstore";
+    $bd="u991668360_women";
 
     $con=mysqli_connect($host,$user,$pass);
 

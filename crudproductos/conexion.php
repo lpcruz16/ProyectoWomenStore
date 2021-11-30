@@ -1,8 +1,8 @@
 <?php
 function conectar(){
     $host="localhost";
-    $user="root";
-    $pass="";
+    $user="u991668360_women";
+    $pass="u991668360_womenstore";
 
     $bd="womenstore";
 
