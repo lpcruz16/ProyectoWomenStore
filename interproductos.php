@@ -7,7 +7,7 @@ if (!isset($usuario)){
 }else{
 
 echo " <h3> $usuario </h3>";
-echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
+echo"<a href='modelo/salir.php'>SALIR </a> ";
 }
 ?>
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../ProyectoWomenStore/estilos/productos.css">
+  <link rel="stylesheet" href="estilos/productos.css">
   <script src="https://kit.fontawesome.com/04f4556f04.js" crossorigin="anonymous"></script>
   <title>Productos/Women Store</title>
 </head>
@@ -27,21 +27,21 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 <br>
 <nav>
 <ul class="menu1">
-<li ><a href="../ProyectoWomenStore/index.html"><b>INICIO</b></I></a> </li>
-<li ><a href="../ProyectoWomenStore/productos.html"><b>PRODUCTOS</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/categorias.html"><b>CATEGORIAS</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/contacto.html"><b>CONTACTO</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/ellos.html"><b>ELLOS</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/cuenta.html"><b>CUENTA</b> </a> </li>
-<li><a href="../ProyectoWomenStore/carro.html"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
+<li ><a href="index.html"><b>INICIO</b></I></a> </li>
+<li ><a href="productos.html"><b>PRODUCTOS</b> </a> </li>
+<li ><a href="categorias.html"><b>CATEGORIAS</b> </a> </li>
+<li ><a href="contacto.html"><b>CONTACTO</b> </a> </li>
+<li ><a href="ellos.html"><b>ELLOS</b> </a> </li>
+<li ><a href="cuenta.html"><b>CUENTA</b> </a> </li>
+<li><a href="carro.html"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
 </ul>
 </nav>
 </header>
 <center>
 <table>
 		<tr>
-			<td><a href="../ProyectoWomenStore/regalos.html"><img  src="../ProyectoWomenStore/img/bonita.jpg"title="Regalos"><br>REGALOS </a></a></td>
-			<td><a href="../ProyectoWomenStore/ofertas.html"><img src="../ProyectoWomenStore/img/oferta2.jpg"title="Ofertas" ><br>OFERTAS</a></td></b>  
+			<td><a href="regalos.html"><img  src="img/bonita.jpg"title="Regalos"><br>REGALOS </a></a></td>
+			<td><a href="ofertas.html"><img src="img/oferta2.jpg"title="Ofertas" ><br>OFERTAS</a></td></b>  
 		</tr>
 	</table>
 
@@ -210,13 +210,13 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
       <p><a href="">Ver mas...</a></p>
     </div>
   </div>
-	</center>
-	<a href="../ProyectoWomenStore/index.html">Inicio</a>
+	<center</center>
+	<a href="index.html">Inicio</a>
 <ul class="menu3">
-<li ><a href="../ProyectoWomenStore/condiciones.html"><b>Condiciones</b></I></a> </li>
-<li ><a href="../ProyectoWomenStore/quienes.html"><b>¿Quienes somos?</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/politicas.html"><b>Politica de Privacidad</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/preguntas.html"><b>¿Preguntas Frecuentes?</b> </a> </li>
+<li ><a href="condiciones.html"><b>Condiciones</b></I></a> </li>
+<li ><a href="quienes.html"><b>¿Quienes somos?</b> </a> </li>
+<li ><a href="politicas.html"><b>Politica de Privacidad</b> </a> </li>
+<li ><a href="preguntas.html"><b>¿Preguntas Frecuentes?</b> </a> </li>
 </ul>
 <div class="con">
   <button><i class="fab fa-facebook"></i></button>

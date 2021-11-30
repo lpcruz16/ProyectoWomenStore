@@ -7,7 +7,7 @@ if (!isset($usuario)){
 }else{
 
 echo " <h3> $usuario </h3>";
-echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
+echo"<a href='modelo/salir.php'>SALIR </a> ";
 }
 ?>
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../ProyectoWomenStore/estilos/index.css">
+  <link rel="stylesheet" href="estilos/index.css">
   <script src="https://kit.fontawesome.com/04f4556f04.js" crossorigin="anonymous"></script>
   <title>Inicio/Women Store</title>
 </head>
@@ -31,14 +31,14 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 <!-- menu de navegacion  -->
 <nav>
 <ul class="menu1">
-<li ><a href="../ProyectoWomenStore/interfazindex.php"><b>INICIO</b></I></a> </li>
-<li ><a href="../ProyectoWomenStore/interproductos.php"><b>PRODUCTOS</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/intercategorias.php"><b>CATEGORIAS</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/intercontacto.php"><b>CONTACTO</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/paginaprin.php"><b>MICUENTA</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/interellos.php"><b>ELLOS</b> </a> </li>
-<li><a href="../ProyectoWomenStore/intercarro.php"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
-<li><a href="../ProyectoWomenStore/crudclientes/index.php"><b></b><div class="editar"><i class="fas fa-file-signature"></i> </div>
+<li ><a href="interfazindex.php"><b>INICIO</b></I></a> </li>
+<li ><a href="interproductos.php"><b>PRODUCTOS</b> </a> </li>
+<li ><a href="intercategorias.php"><b>CATEGORIAS</b> </a> </li>
+<li ><a href="intercontacto.php"><b>CONTACTO</b> </a> </li>
+<li ><a href="paginaprin.php"><b>MICUENTA</b> </a> </li>
+<li ><a href="interellos.php"><b>ELLOS</b> </a> </li>
+<li><a href="intercarro.php"><div class="carro"><i class="fas fa-shopping-cart"></i></div></a> </li>
+<li><a href="crudclientes/index.php"><b></b><div class="editar"><i class="fas fa-file-signature"></i> </div>
 </ul>
 </nav> 
 </h1>
@@ -49,24 +49,24 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
   <div class="container">
   <ul class="slider">
     <li id="slide1">
-      <img src="../ProyectoWomenStore/img/perfume12.jpg" alt="Perfumes" title="Perfumes">
+      <img src="img/perfume12.jpg" alt="Perfumes" title="Perfumes">
     </li>
     <li id="slide2">
-      <img src="../ProyectoWomenStore/img/labial.jpg"/>
+      <img src="img/labial.jpg"/>
     </li>
     <li id="slide3">
       <h2>15% COMPRAS SUPERIORES A $50.000 / DESPACHAMOS TU PEDIDO EN 24 HRS</h2>
-      <p><a href="../ProyectoWomenStore/regalos.html">¡Regalos!</a></p>
+      <p><a href="regalos.html">¡Regalos!</a></p>
       <a href="https://www.facebook.com/WomenStore-102504158766530">¡Visitanos en nuestras redes sociales</a>
     </li>
      <li id="slide4">
-      <img src="../ProyectoWomenStore/img/nutribela.jpg"/>
+      <img src="img/nutribela.jpg"/>
     </li>
      <li id="slide5">
-      <img src="../ProyectoWomenStore/img/keratina.jpg"/>
+      <img src="img/pestañas.jpg"/>
     </li>
      <li id="slide6">
-      <img src="../ProyectoWomenStore/img/mascara.jpg"/>
+      <img src="img/mascara.jpg"/>
     </li>
   </ul>
   <!-- fin parte 1 slider -->
@@ -95,24 +95,24 @@ echo"<a href='../ProyectoWomenStore/modelo/salir.php'>SALIR </a> ";
 <!-- inicio de las imagenes de muestra  -->
 <table>
 <tr>
-<td><img src="../ProyectoWomenStore/img/maria1.jpeg" width="560px" height="425px"alt=""></td>
+<td><img src="img/maria1.jpeg" width="560px" height="425px"alt=""></td>
 <td> <h3>TIENDA EN LINEA DONDE PODRAS :</h3>
 
-<b><a href="../ProyectoWomenStore/tomarpe.html">✔TOMAR PEDIDO</a></b><br>
-<b><a href="../ProyectoWomenStore/finalizar.html">✔FINALIZAR COMPRA</a></b><br>
-<b><a href="../ProyectoWomenStore/rastrear.html">✔RASTREAR PEDIDO</a></b><br>
-<b><a href="../ProyectoWomenStore/chatear.html">✔CHATEAR CON NOSOTROS</a></b><br>
+<b><a href="tomarpe.html">✔TOMAR PEDIDO</a></b><br>
+<b><a href="finalizar.html">✔FINALIZAR COMPRA</a></b><br>
+<b><a href="rastrear.html">✔RASTREAR PEDIDO</a></b><br>
+<b><a href="chatear.html">✔CHATEAR CON NOSOTROS</a></b><br>
 
-<td><img src="../ProyectoWomenStore/img/imagen2.jpg" width="560px" height="400px"alt=""></td><hr>
-<td><img src="../ProyectoWomenStore/img/imagen3.jpg" width="560px" height="400px"alt=""></td>
+<td><img src="img/imagen2.jpg" width="560px" height="400px"alt=""></td><hr>
+<td><img src="img/imagen3.jpg" width="560px" height="400px"alt=""></td>
 </tr>
 </table>
 </section>
 <ul class="menu3">
-<li ><a href="../ProyectoWomenStore/condiciones.html "><b>Condiciones</b></I></a> </li>
-<li ><a href="../ProyectoWomenStore/quienes.html"><b>¿Quienes somos?</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/politicas.html"><b>Politica de Privacidad</b> </a> </li>
-<li ><a href="../ProyectoWomenStore/preguntas.html"><b>¿Preguntas Frecuentes?</b> </a> </li>
+<li ><a href="condiciones.html "><b>Condiciones</b></I></a> </li>
+<li ><a href="quienes.html"><b>¿Quienes somos?</b> </a> </li>
+<li ><a href="politicas.html"><b>Politica de Privacidad</b> </a> </li>
+<li ><a href="preguntas.html"><b>¿Preguntas Frecuentes?</b> </a> </li>
 </ul>
 <div>
   <button><a href="#"></a><i class="fab fa-facebook"></i></button>
