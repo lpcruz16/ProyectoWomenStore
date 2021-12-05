@@ -31,33 +31,6 @@ body{
     background:#f55cc4;
     padding: 8px;
 }
-table{
-    position: static;
-    display: inline-block;
-}
-table tr td{
-    width: 635px;
-    height: 425px;
-    display: inline-block;
-    text-align:center;
-    position: static;
-}
-table tr td b a{
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    font-size: x-large;
-    position: static;
-    text-decoration: none;
-}
-table tr td b img{
-    width:620px ;
-    height:425px ;
-    background-color: blue;
-    position: static;
-    image-rendering: auto;
-    text-decoration: none;
-}
 .menu3{
     list-style: none;
     padding:0;
@@ -116,4 +89,8 @@ table tr td b img{
 .btn:hover{
     border: 1px solid transparent;
     color:  #0f0a0c;
+}
+table{
+    position:sticky;
+    text-align: end;
 }
