@@ -3,7 +3,7 @@ body{
     font-size: x-large;
     position: static;
     font-family:'Courier New', Courier, monospace;
-    background-image: linear-gradient(-45deg, hsl(319, 86%, 73%) 50%, white 50%);
+    background-image: linear-gradient(-45deg, hsl(231, 74%, 64%) 50%, white 50%);
     margin: 8px;
 }
 .menu1{
