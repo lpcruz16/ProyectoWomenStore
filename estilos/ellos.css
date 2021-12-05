@@ -3,14 +3,14 @@ body{
     font-size: x-large;
     position: static;
     font-family:'Courier New', Courier, monospace;
-    background-image: linear-gradient(-45deg, #5d8fdf 50%, #edd9f0f8 50%);;
-    margin: 10px;
+    background-image: linear-gradient(-45deg, hsl(319, 86%, 73%) 50%, white 50%);
+    margin: 8px;
 }
 .menu1{
     list-style: none;
     padding:0;
     background:transparent;
-    width: 90%;
+    width: 80%;
     max-width: 1000px;
     margin: auto;
     font-size: x-large;
@@ -20,7 +20,7 @@ body{
 .menu1 li a{
     text-decoration: none;
     color:#000000;
-    padding: 20px;
+    padding: 10px;
     display: block;
 }
 .menu1 li {
@@ -28,71 +28,32 @@ body{
     text-align: left;
 }
 .menu1 li a :hover{
-    background:#e737af;
-    padding: 10px;
+    background:#f55cc4;
+    padding: 8px;
 }
-.menu2{
-  text-align: center;
-  margin: 20px;
+table{
+    position: static;
+    display: inline-block;
 }
-
-.menu2 li{
-  display: inline-block;
-  text-align: center;
-  color: #ee07bc;
+table tr td{
+    width: 635px;
+    height: 425px;
+    display: inline-block;
+    text-align:center;
+    position: static;
 }
-
-.menu2 li a{
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  background-color: rgb(3, 3, 3);
-  padding: 10px;
-  width: 3px;
-  height: 3px;
-  font-size: 20px;
-  border-radius: 100%;
-}
-.menu3{
-    list-style: none;
-    padding:0;
-    background:transparent;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+table tr td b a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
     font-size: x-large;
     position: static;
-    
-}
-.menu3 li a{
     text-decoration: none;
-    color:#000000;
-    padding: 20px;
-    display: block;
 }
-.menu3 li {
-    display: inline-block;
-    text-align: center;
-}
-.menu3 li a :hover{
-    background:#d6d1d4;
-    padding: 10px;
-}
-button{
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    padding: 30;
-    color: black;
-    font-size: 50px;
-    transition: .3 ease all;
-    text-align: left;
-}
-.btn:hover{
-background: burlywood;
-color: #000;
-box-shadow: 3px 3px 50px chocolate;
+table tr td b img{
+    width:620px ;
+    height:425px ;
+    position: static;
+    image-rendering: auto;
+    text-decoration: none;
 }
