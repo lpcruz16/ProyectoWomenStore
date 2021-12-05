@@ -3,10 +3,7 @@ body{
     font-size: x-large;
     position: static;
     font-family:'Courier New', Courier, monospace;
-    background-image: linear-gradient(-45deg, hsl(319, 86%, 73%) 50%, white 50%);
-    /*background: url(../img/fondo3.gif) no-repeat;
-    background-size: 1000% 1000% ;*/
-
+    background-image: linear-gradient(-45deg, hsl(2, 96%, 64%) 50%, white 50%);
     margin: 8px;
 }
 .logo{
