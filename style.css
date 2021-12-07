@@ -32,11 +32,17 @@ body{
 }
 
 .feature-img{
-
     width: 83%;
     margin: auto;
     position: relative;
     border-radius: 6px;
     overflow: hidden;
-    
+
 }
+
+.small-img-row{
+    display: flex;
+    background: indigo;
+    margin: 20px ;
+}
+
