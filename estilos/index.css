@@ -28,7 +28,7 @@ body{
     text-align: left;
 }
 .menu1 li a :hover{
-    background:#e737af;
+    background:#f55cc4;
     padding: 8px;
 }
 table{
@@ -63,10 +63,10 @@ table tr td b img{
     width: 150px;
     height: 40px;
     outline: none;
-    border: 1px solid #ee07bc;
+    border: 1px solid #eb92d7;
     background-color:#0c0106;
     border-radius: 6px;
-    color: #e931ca;
+    color: #f0a6e3;
     cursor: pointer;
     margin: 100px auto;
     transition: all.25;
@@ -89,12 +89,12 @@ table tr td b img{
 }
 .btn:hover{
     border: 1px solid transparent;
-    color:  #d91362;
+    color:  #0f0a0c;
 }
 .container{
   margin: auto;
-  background-color: #e06dbe;
-  width: 1100px;
+  background-color: #ff76b6;
+  width: 1000px;
   padding: 30px;
 }
 
@@ -107,7 +107,7 @@ ul, li {
 ul.slider{
   position: relative;
   width: 700px;
-  height: 430px;
+  height: 450px;
 }
 
 ul.slider li {
@@ -122,8 +122,8 @@ ul.slider li {
 }
 
 ul.slider li img{
-  width: 1100px;
-  height: 410px;
+  width: 1000px;
+  height: 450px;
   object-fit: fill;
 }
 
@@ -196,7 +196,7 @@ button{
     text-align: left;
 }
 .btn:hover{
-background: burlywood;
+background: rgb(206, 37, 141);
 color: #000;
-box-shadow: 3px 3px 50px chocolate;
+box-shadow: 3px 3px 50px rgb(27, 26, 25);
 }
