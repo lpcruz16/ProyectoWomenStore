@@ -1,6 +1,6 @@
 const carrito = document.getElementById("carrito");
-const platillos = document.getElementById("lista-platillos");
-const listaPlatillos = document.querySelector("#lista-carrito tbody");
+const platillos = document.getElementById("lista-productos");
+const listaProductos = document.querySelector("#lista-carrito tbody");
 const vaciarCarritoBtn = document.getElementById("vaciar-carrito");
 
 cargarEventListeners();
@@ -16,34 +16,34 @@ function comprarPlatillo(e) {
   e.preventDefault();
   if (e.target.classList.contains("agregar-carrito")) {
     const platillo = e.target.parentElement.parentElement;
-    leerDatosPlatillo(platillo);
+    leerDatosPlatillo('platillo');
   }
 }
 
-function leerDatosPlatillo(platillo) {
+function leerDatosPlatillo(producto) {
   const infoPlatillo = {
-    imagen: platillo.querySelector("img").src,
-    titulo: platillo.querySelector("h4").textContent,
-    precio: platillo.querySelector(".precio span").textContent,
-    id: platillo.querySelector("a").getAttribute("data-id"),
+    imagen: producto.querySelector("img").src,
+    titulo: producto.querySelector("h5").textContent,
+    precio: producto.querySelector(".precio span").textContent,
+    id: producto.querySelector("a").getAttribute("data-id"),
   };
 
   insertarCarrito(infoPlatillo);
 }
 
-function insertarCarrito(platillo) {
+function insertarCarrito(producto) {
   const row = document.createElement("tr");
   row.innerHTML = `
        <td>
-           <img src="${platillo.imagen}" width=100> 
+           <img src="${producto.imagen}" width=100> 
        </td> 
-       <td>${platillo.titulo}</td>
-       <td>${platillo.precio}</td>
+       <td>${producto.titulo}</td>
+       <td>${producto.precio}</td>
        <td>
         <a href="#" class="borrar-platillo" data-id="${platillo.id}">X</a>
        </td>
     `;
-  listaPlatillos.appendChild(row);
+  listaProducto.appendChild(row);
   guardarPlatilloLocalStorage(platillo);
 }
 
@@ -61,8 +61,8 @@ function eliminarPlatillo(e) {
 }
 
 function vaciarCarrito() {
-  while (listaPlatillos.firstChild) {
-    listaPlatillos.removeChild(listaPlatillos.firstChild);
+  while (listaProductos.firstChild) {
+    listaProductos.removeChild(listaPlatillos.firstChild);
   }
   vaciarLocalStorage();
 

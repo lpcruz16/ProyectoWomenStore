@@ -114,3 +114,28 @@ ul {
     margin-bottom: 10px;
     text-decoration: none;
 }
+.menu1{
+    list-style: none;
+    padding:0;
+    background:transparent;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: x-large;
+    position: static;
+    
+}
+div.menu1 li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px;
+    display: block;
+}
+div.menu1 li {
+    display: inline-block;
+    text-align: left;
+}
+div.menu1 li a :hover{
+    background:#f55cc4;
+    padding: 8px;
+}
