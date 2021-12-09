@@ -1,0 +1,116 @@
+body{
+     background-image: linear-gradient(-45deg, hsl(318, 85%, 64%) 50%, white 50%);
+    color: rgb(3, 3, 3);
+    font-family:'Courier New', Courier, monospace;
+}
+/* h4 {
+    font-size: 16px;
+    font-weight: 700;
+} */
+/* header {
+    padding: 20px 0 0 0;
+    background: #1d2124;
+    text-align: center;
+} */
+
+@media (min-width : 750px) {
+    header {
+        text-align: center;
+    }
+    header.li.a{
+        display: block;
+    }
+}
+
+.borrar-platilo {
+    background-color: #fb3232;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+    font-weight: bold;
+
+}
+
+ul {
+    list-style: none;
+}
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background: #17181b;
+    padding: 20px;
+}
+.vacio {
+    padding: 10px;
+    background-color: #99266d;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.button {
+    background-color: #74204c;
+    color: rgb(255, 255, 255);
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+#lista-platillos .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito{
+    margin: 10px 0;
+}
+/* IMPORTANTE */
+.card {
+    text-align: center;
+    border: 1px solid rgba(8, 8, 8, 0.89);
+    background: #ee6db4;
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: black;
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #1d2124;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
