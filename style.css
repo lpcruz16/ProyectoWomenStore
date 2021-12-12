@@ -42,7 +42,11 @@ body{
 
 .small-img-row{
     display: flex;
-    background: indigo;
-    margin: 20px ;
+    background: rgb(130, 0, 98);
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85;
 }
 
