@@ -23,7 +23,7 @@ body{
 }
 
 .borrar-platilo {
-    background-color: #fb3232;
+    background-color: #080808;
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
@@ -43,7 +43,7 @@ ul {
 }
 .submenu:hover #carrito{
     display: block;
-    color: white;
+    color: black;
     position: absolute;
     right: 0;
     top: 100%;
@@ -53,13 +53,13 @@ ul {
 }
 .vacio {
     padding: 10px;
-    background-color: #99266d;
+    background-color:white;
     text-align: center;
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }
 .button {
-    background-color: #74204c;
+    background-color: rgb(42, 42, 223);
     color: rgb(255, 255, 255);
 }
 @media (min-width: 750px) {
@@ -78,7 +78,7 @@ ul {
 .card {
     text-align: center;
     border: 1px solid rgba(8, 8, 8, 0.89);
-    background: #ee6db4;
+    background: black;
 }
 @media (min-width:550px){
     .card {
@@ -87,7 +87,7 @@ ul {
 }
 .info-card {
     padding: 10px 20px;
-    color: black;
+    color: white;
 }
 .info-card p,
 .card h4 {
