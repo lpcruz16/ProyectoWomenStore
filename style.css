@@ -68,3 +68,16 @@ body{
     font-size: 15px;
 }
 
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+
+
+
+
