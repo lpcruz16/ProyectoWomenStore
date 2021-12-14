@@ -15,15 +15,15 @@
 <div  class="row">
   <div class="col">
   <div class="feature-img">
-    <img src="img/logo1.jpg" width="50%">
-    <img src="img/logo.jpg" class="play-btn">
+    <img src="img/logo1.jpg" width="80%">
+    <img src="img/logo1.jpg" class="play-btn" onclick="playVideo('img/solar.mp4')">
 </div>
 </div>
 <div class="col">
   <div class="small-img-row">
   <div class="small-img">
-    <img src="img/logo2.png">
-    <img src="img/logo.jpg" class="play-btn">
+    <img src="img/logo2.png" width="50%">
+    <img src="img/logo2.png" class="play-btn">
   </div>
   <p> Como maquillar tus ojos </p>
 </div>
@@ -31,7 +31,7 @@
   <div class="col">
   <div class="feature-img">
     <img src="img/logo1.jpg" width="50%">
-    <img src="img/logo.jpg" class="play-btn">
+    <img src="img/logo1.jpg" class="play-btn">
     <p> Como maquillar tus ojos </p>
 </div>
 
@@ -46,14 +46,30 @@
   <source src="img/mamaehija.mp4" type="video/mp4">
 </video>
 
-<div class="video-player">
-<video width="100%" controls autoplay>
+<div class="video-player" id="video-Player">
+<video width="100%" controls autoplay id="myVideo">
   <source src="img/mascarilla.mp4" type="video/mp4">
   </video>
-  <img src="img/close1.png" class="close1-btn">
+  <img src="img/close1.png" class="close1-btn"
+  onclick="stopVideo()">
 </div>
 
+<script>
 
+var videoplayer = document.getElementById("videoPlayer");
+var myVideo = document.getElementById("myVideo");
+
+function stopVideo(){
+
+videoPlayer.style.display ="none";
+
+}
+
+function playVideo(file){
+  myVideo.src = file;
+  videoPlayer.style.display = "block";
+}
+</script>
 </div>
 
 </html>
