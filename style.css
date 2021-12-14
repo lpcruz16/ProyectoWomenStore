@@ -42,7 +42,68 @@ body{
 
 .small-img-row{
     display: flex;
-    background: indigo;
-    margin: 20px ;
+    background: rgb(130, 0, 98);
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
 }
 
+.small-img{
+
+    position: relative;
+}
+
+.small-img img{
+
+    width: 150px;
+}
+
+.small-img-row p{
+
+    margin-left: 20px;
+    color: indianred;
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.small-img .play-btn{
+
+    width: 35px;
+}
+
+.video-player{
+
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+}
+
+
+video:focus{
+
+    outline: none;
+}
+
+.close-btn{
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    
+}
