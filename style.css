@@ -77,7 +77,32 @@ body{
     cursor: pointer;
 }
 
+.small-img .play-btn{
+
+    width: 35px;
+}
+
+.video-player{
+
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
 
 
+video:focus{
 
+    outline: none;
+}
 
+.close-btn{
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    
+}
