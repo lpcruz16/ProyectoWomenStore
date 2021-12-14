@@ -47,6 +47,24 @@ body{
     align-items: center;
     border-radius: 6px;
     overflow: hidden;
-    width: 85;
+    width: 85%;
+}
+
+.small-img{
+
+    position: relative;
+}
+
+.small-img img{
+
+    width: 150px;
+}
+
+.small-img-row p{
+
+    margin-left: 20px;
+    color: indianred;
+    line-height: 22px;
+    font-size: 15px;
 }
 
